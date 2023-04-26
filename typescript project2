@@ -1,0 +1,67 @@
+Script started on Tue 24 Jan 2023 08:35:54 PM CST
+]0;gx6174jg@csci4:~/PROJECT_1[?1034h[gx6174jg@csci4 PROJECT_1]$ g++ Bag.cpp Item.cpp ShoppingCart.cpp main.cpp
+]0;gx6174jg@csci4:~/PROJECT_1[gx6174jg@csci4 PROJECT_1]$ ./a.out
+Welcome to XXX SHOPPING CENTER.
+Enter the item you selected as the following order:
+name unitPrice quantity
+(Name can not contain any space. Otherwise errors happen!)
+--> T-shirt 19.99 2
+Want to continue y/n-->y
+-->Sweater 39.99 1
+Want to continue y/n-->y
+-->iphone_case 25.50 3
+Want to continue y/n-->y
+-->Towel 9.99 5
+Want to continue y/n-->n
+Here is your order:
+-------------------------------------------------
+Name Unit_Price Quantity
+T-shirt $19.99 2
+Sweater $39.99 2
+iphone_case $25.5 3
+Towel $9.99 5
+The total charge is $246.41
+--------------------------------------------------
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> 1
+Enter the item to add as the following order:
+name unitPrice quantity
+--> shoe 99.99 1
+The item has been added.
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> 2
+Enter the item to remove as the following order:
+name unitPrice quantity
+--> Sweater 29.99 2
+No such item in your shopping cart!
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> 2
+Enter the item to remove as the following order:
+name unitPrice quantity
+--> Sweater 39.99 2
+The item has been removed.
+Want to modify your order? y/n-->y
+What do you want? Enter 1: add 2: remove 3: change quantity
+--> 3
+Enter the item to change as the following order:
+name unitPrice quantity
+--> Towel 9.99 5
+Enter a new quantity --> -2
+-2 is not a valid input.
+Enter a new quantity --> 2
+The quantity has been modified.
+Want to modify your order? y/n-->n
+Here is your updated order:
+-------------------------------------------------
+You have ordered the following items:
+Name Unit_Price Quantity
+T-shirt $19.99 2
+Shoe $99.99 1
+iphone_case $25.5 3
+Towel $9.99 2
+The total charge is $236.45
+Thanks for shopping in XXX SHOPPING CENTER.
+---------------------------------------------------
